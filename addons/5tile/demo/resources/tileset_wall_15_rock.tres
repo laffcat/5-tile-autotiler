@@ -1,0 +1,24 @@
+[gd_resource type="TileSet" load_steps=3 format=3 uid="uid://cklc37xu5aglf"]
+
+[ext_resource type="Texture2D" uid="uid://bgoljtm071r3r" path="res://addons/5tile/demo/sprites/wall_rock.png" id="1_t2tqb"]
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_xnvh8"]
+texture = ExtResource("1_t2tqb")
+0:0/0 = 0
+1:0/0 = 0
+2:0/0 = 0
+3:0/0 = 0
+4:0/0 = 0
+0:1/0 = 0
+1:1/0 = 0
+2:1/0 = 0
+3:1/0 = 0
+4:1/0 = 0
+0:2/0 = 0
+1:2/0 = 0
+2:2/0 = 0
+3:2/0 = 0
+4:2/0 = 0
+
+[resource]
+sources/0 = SubResource("TileSetAtlasSource_xnvh8")
