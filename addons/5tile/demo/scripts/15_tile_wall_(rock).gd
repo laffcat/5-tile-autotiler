@@ -28,7 +28,7 @@ func get_tile(neighbors : Array[bool] = [false, false, false, false]) -> Array:
 		# top outer corners - | ▄|, |▄ |
 		[false, false, true, false]: return [ 0, 0, 0 ]
 		[false, false, false, true]: return [ 2, 0, 0 ]
-		# bottom outer corners - | ▀|, |▀ |
+		# bottom outer corners - | ▀|, |▀ |--
 		[false, true, false, false]: return [ 0, 2, 0 ]
 		[true, false, false, false]: return [ 2, 2, 0 ]
 		# top inner corners - |▄█|, |█▄|
