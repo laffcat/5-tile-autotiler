@@ -7,7 +7,7 @@ extends TileMapLayer
 
 ## If true, calls 'randomize()' every time 'Randomize' is pressed, giving the engine a new RNG seed.
 @export var reroll_seed := true
-@export_tool_button(&'Randomize', "Callable") var refrech := update
+@export_tool_button(&'Randomize', "Callable") var refresh := update
 ## Tiles have a one in (x) chance to deviate from (0, 0).
 @export var randomize_chance := 4
 
