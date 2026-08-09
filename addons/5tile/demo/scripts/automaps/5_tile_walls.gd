@@ -43,7 +43,7 @@ func get_tile(neighbors : Array[bool] = [false, false, false, false]) -> Array:
 		# empty - |  |
 		[false, false, false, false]: return [ -1, -1, -1 ] # no tile
 	
-	# shouldn't reach this par draws the offending neibhor configuration in console
+	# shouldn't reach this part, draws the offending neibhor configuration in console
 	print("ERROR: AutoMapLayer.get_tile() - failed to match input. Did you remove lines from the 'match neighbors:' block?\n"
 		+ ". " if !neighbors[0] else "0 " + ".\n" if !neighbors[1] else "0\n"
 		+ ". " if !neighbors[3] else "0 " + "." if !neighbors[2] else "0"	)
