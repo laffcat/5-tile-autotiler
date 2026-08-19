@@ -4,11 +4,11 @@
 [ext_resource type="Texture2D" uid="uid://dj2oksm6hx2in" path="res://addons/5tile/demo/sprites/sand_bg.png" id="1_30xla"]
 [ext_resource type="Texture2D" uid="uid://c6bwtqvildg5j" path="res://addons/5tile/dot_16.png" id="1_q6bjw"]
 [ext_resource type="Script" uid="uid://bkw0t8ubw3v7q" path="res://addons/5tile/misc/tile_randomizer_simple.gd" id="2_8jgqr"]
-[ext_resource type="Script" uid="uid://df7ij572gxis0" path="res://addons/5tile/demo/scripts/automaps/5_tile_grass_randomized.gd" id="3_8wahr"]
+[ext_resource type="Script" uid="uid://df7ij572gxis0" path="res://addons/5tile/demo/scripts/5_tile_grass_randomized.gd" id="3_8wahr"]
 [ext_resource type="TileSet" uid="uid://cklc37xu5aglf" path="res://addons/5tile/demo/resources/tileset_wall_15_rock.tres" id="6_ph413"]
-[ext_resource type="Script" uid="uid://cb180ktygg861" path="res://addons/5tile/demo/scripts/automaps/15_tile_wall_(rock).gd" id="7_rdfnl"]
+[ext_resource type="Script" uid="uid://cb180ktygg861" path="res://addons/5tile/demo/scripts/15_tile_wall_(rock).gd" id="7_rdfnl"]
 [ext_resource type="TileSet" uid="uid://2aii11ay0d85" path="res://addons/5tile/demo/resources/tileset_wall_5.tres" id="8_30xla"]
-[ext_resource type="Script" uid="uid://b3c5q366em51p" path="res://addons/5tile/demo/scripts/automaps/5_tile_walls.gd" id="9_8jgqr"]
+[ext_resource type="Script" uid="uid://b3c5q366em51p" path="res://addons/5tile/demo/scripts/5_tile_walls.gd" id="9_8jgqr"]
 [ext_resource type="Texture2D" uid="uid://ha766vysa5rs" path="res://addons/5tile/demo/sprites/walls_temple.png" id="9_rdfnl"]
 [ext_resource type="Script" uid="uid://dsouvamnkaja2" path="res://addons/5tile/demo/scripts/automaps/fancy_walls_temple.gd" id="10_rdfnl"]
 [ext_resource type="Texture2D" uid="uid://bltdx2wc2f2gg" path="res://addons/5tile/dot_24.png" id="12_jwbsa"]
@@ -149,8 +149,6 @@ tile_map_data = PackedByteArray("AAAAAAQAAAACAAIAAAAAAAMAAAAAAAEAABD//wQAAAAAAAY
 tile_set = SubResource("TileSet_j2u3y")
 script = ExtResource("10_rdfnl")
 layout = NodePath("../../AutoMapLayouts/Fancy Wall (Temple) Layout")
-draw_input = 65
-erase_input = 83
 metadata/_custom_type_script = "uid://b0rcjbnj6dvc4"
 
 [node name="15-Tile Wall (Rock) Final" type="TileMapLayer" parent="AutoMapFinals" unique_id=1132543312 node_paths=PackedStringArray("layout")]

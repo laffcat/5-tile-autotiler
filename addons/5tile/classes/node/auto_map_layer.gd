@@ -18,7 +18,7 @@ extends TileMapLayer
 @export var source_id := 0
 
 @export_category("In-Editor Drawing")
-## TEST - Enables draw mode for this AutoMapLayer.
+## TEST - Enables draw mode for this AutoMapLayer. Uses keyboard inputs defined below to draw in the editor.
 @export var draw_mode := false:
 	set(b):
 		if b:
